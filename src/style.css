@@ -3,10 +3,11 @@ body{font-family:Arial,Helvetica,sans-serif;background:#f7f7f7;display:flex;just
 input,button{margin:5px 0;padding:8px;width:100%;border:1px solid #ddd;border-radius:4px}
 button{background:#4a90e2;color:#fff;border:none;cursor:pointer}
 button:hover{background:#357ab8}
-.project-section{margin-bottom:20px;padding:10px;border:2px solid #dcdcdc;border-radius:6px;background:#fafafa}
+.project-section{
+    margin-bottom:20px;padding:10px;border:2px solid #dcdcdc;border-radius:6px;background:#fafafa}
 #project-list li{background:#f0f0f0;border-radius:5px;margin-bottom:8px;padding:10px;transition:background .2s,transform .1s}
 #project-list li:hover{background:#e0e7ff;cursor:pointer;transform:scale(1.02)}
-#project-list li.active{background:#c7d2fe;font-weight:600}
+#project-list li.active{background:greenyellow;font-weight:600}
 .todo-section{padding:10px;border:2px solid #dcdcdc;border-radius:6px;background:#fafafa}
 ul{list-style:none;padding:0}
 #todo-list li{margin:5px 0;padding:8px;background:#f0f0f0;border-radius:4px}
